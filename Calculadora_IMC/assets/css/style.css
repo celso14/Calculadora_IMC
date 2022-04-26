@@ -1,8 +1,10 @@
 body{
     margin: 0;
+
     font-family: Arial, Helvetica, sans-serif;
 }
 *{
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -39,7 +41,6 @@ body{
     align-items: center;
     flex: 1;
     margin-top: 25px;
-    background-color: aquamarine;
     border-bottom: 3px solid black;
     font-size: 35px;
     font-weight: bold;
@@ -50,23 +51,37 @@ body{
     width: 80%;
     flex: 5;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
     margin-top: 25px;
     padding: 30px 0px ;
     border-radius: 6px;
-    background-color: cyan;
-
 }
+
 .input form{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 5px;
 }
 .input form input{
-
+    width: 304px;
+    height: 45px;
+    margin-bottom: 15px;
+}
+.input button{
+    padding: 12px 51px;
+    background-color: black;
+    border: none;
+    border-radius: 6px;
+    color: snow;
+}
+.input button:hover{
+    border: 1px solid snow;
+    box-shadow: 0px 0px 50px snow;
+    color: gold;
 }
 
 
